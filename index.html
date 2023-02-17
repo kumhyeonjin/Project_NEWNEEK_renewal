@@ -6,13 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>금현진</title>
     <link rel="stylesheet" href="./my_reset.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Jua&family=Noto+Sans:wght@200;300;400;500;700&display=swap"
       rel="stylesheet"
     />
-
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
@@ -24,31 +21,30 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
     />
-
     <link rel="stylesheet" href="./newneek_main.css" />
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-
     <script src="./common.js" defer></script>
   </head>
   <body>
-    <header class="hd">
-      <div class="top_fun">
-        <p class="logo">
-          <a href="./newneek_main.html">NEWNEEK</a>
-        </p>
-        <div class="top_icon">
-          <div class="login">로그인</div>
-          <div class="dark">
-            <i class="fas fa-light fa-moon"></i>
-          </div>
-          <div class="search">
-            <i class="fas fa-regular fa-magnifying-glass"></i>
+    <div class="wrap">
+      <header class="mw">
+        <div class="top_fun">
+          <p class="logo">
+            <a href="./index.html">NEWNEEK</a>
+          </p>
+          <div class="top_icon">
+            <div class="login">로그인</div>
+            <div class="dark">
+              <i class="fas fa-light fa-moon"></i>
+            </div>
+            <div class="search">
+              <i class="fas fa-regular fa-magnifying-glass"></i>
+            </div>
+            <button class="ham">햄버거</button>
           </div>
         </div>
-      </div>
-      <nav class="top_nav">
-        <div class="gnb">
+        <nav class="top_nav">
           <a href="#">
             <img src="./images/hover_뉴닉탄생기.png" alt="" />
             <span>뉴닉탄생기</span>
@@ -73,170 +69,169 @@
             <img src="./images/hover_무료로 구독하기.png" alt="" />
             <span>무료로구독하기</span>
           </a>
-        </div>
-      </nav>
-    </header>
-    <section class="banner">
-      <h2 class="banner_title">
-        <img src="./images/배너타이틀.png" alt="우리가시간이없지" />
-      </h2>
-      <div class="minute1">
-        <h3 hidden>1분뉴스</h3>
-        <button class="more1">more></button>
-        <ul>
-          <li><a href="#"> 은행이 눈칫밥 먹는다고?</a></li>
-          <li><a href="#"> 정부_전세사기 대책_최종.txt</a></li>
-          <li><a href="#"> 튀르키예 강진</a></li>
-          <li><a href="#"> 앞으론 인도가 뜬다</a></li>
-          <li><a href="#"> 기후위기에 불타는 칠레</a></li>
-        </ul>
-      </div>
-      <div class="h_tooth">
-        <button class="more2">more></button>
-        <ul>
-          <li><a href="">난 진격의 붉은다람쥐야</a></li>
-          <li><a href="">세상을 바꾼 비행기</a></li>
-          <li><a href="">습지 알쓸신잡 퀴즈♬</a></li>
-          <li><a href="">"서로 미워하지 말고"</a></li>
-        </ul>
-      </div>
-      <div class="btn_service"></div>
-    </section>
-    <section class="slide">
-      <h2>
-        <img
-          class="recent_title"
-          src="./images/최신뉴스타이틀.png"
-          alt="최신뉴스타이틀"
-        />
-      </h2>
-
-      <div class="swiper news_recent">
-        <ul class="swiper-wrapper">
-          <li class="swiper-slide">
-            <img src="./images/최신뉴스컨텐츠1.png" alt="최신뉴스1" />
-          </li>
-          <li class="swiper-slide">
-            <img src="./images/최신뉴스컨텐츠2.png" alt="최신뉴스2" />
-          </li>
-          <li class="swiper-slide">
-            <img src="./images/최신뉴스컨텐츠3.png" alt="최신뉴스3" />
-          </li>
-          <li class="swiper-slide">
-            <img src="./images/최신뉴스컨텐츠4.png" alt="최신뉴스4" />
-          </li>
-          <li class="swiper-slide">
-            <img src="./images/최신뉴스컨텐츠5.png" alt="최신뉴스5" />
-          </li>
-          <li class="swiper-slide">
-            <img src="./images/최신뉴스컨텐츠3.png" alt="최신뉴스3" />
-          </li>
-          <li class="swiper-slide">
-            <img src="./images/최신뉴스컨텐츠4.png" alt="최신뉴스4" />
-          </li>
-          <li class="swiper-slide">
-            <img src="./images/최신뉴스컨텐츠5.png" alt="최신뉴스5" />
-          </li>
-        </ul>
-      </div>
-      <div class="swiper-button-next next1"></div>
-      <div class="swiper-button-prev prev1"></div>
-      <!-- <button class="left">
-        <img src="./images/left.png" alt="" />
-      </button>
-      <button class="right">
-        <img src="./images/right.png" alt="" />
-      </button> -->
-    </section>
-    <section class="contents">
-      <div class="pizza">
-        <button>more></button>
-        <span
-          ><a href="#">
-            따끈따끈한 이슈를 함께 살펴보고, 건강하고 다양한 의견을 나눠봐요 </a
-          >!</span
-        >
-      </div>
-      <div class="quiz">
-        <button>more></button>
-        <span>
-          <a href="#">퀴즈 풀면서 복습하는 이번 주 이슈!</a>
-        </span>
-      </div>
-      <div class="insta">
-        <button><img src="./images/더보기버튼.png" alt="" /></button>
-        <div class="insta_con">
-          <h3>instagram</h3>
-          <hr />
+        </nav>
+      </header>
+      <section class="banner mw">
+        <h2 class="banner_title">
+          <img src="./images/배너타이틀.png" alt="우리가시간이없지" />
+        </h2>
+        <div class="minute1">
+          <h3 hidden>1분뉴스</h3>
+          <button class="more">more></button>
           <ul>
-            <li>
-              <a href="#"><img src="./images/인스타이미지.png" alt="" /></a>
+            <li><a href="#"> 은행이 눈칫밥 먹는다고?</a></li>
+            <li><a href="#"> 정부_전세사기 대책_최종.txt</a></li>
+            <li><a href="#"> 튀르키예 강진</a></li>
+            <li><a href="#"> 앞으론 인도가 뜬다</a></li>
+            <li><a href="#"> 기후위기에 불타는 칠레</a></li>
+          </ul>
+        </div>
+        <div class="h_tooth">
+          <button class="more">more></button>
+          <ul>
+            <li><a href="">난 진격의 붉은다람쥐야</a></li>
+            <li><a href="">세상을 바꾼 비행기</a></li>
+            <li><a href="">습지 알쓸신잡 퀴즈♬</a></li>
+            <li><a href="">"서로 미워하지 말고"</a></li>
+          </ul>
+        </div>
+        <div class="btn_service"></div>
+      </section>
+      <section class="slide mw">
+        <h2>
+          <img
+            class="recent_title"
+            src="./images/최신뉴스타이틀.png"
+            alt="최신뉴스타이틀"
+          />
+        </h2>
+        <div class="swiper news_recent">
+          <ul class="swiper-wrapper">
+            <li class="swiper-slide">
+              <img src="./images/최신뉴스컨텐츠1.png" alt="최신뉴스1" />
             </li>
-            <li>
-              <a href="#"><img src="./images/인스타이미지.png" alt="" /></a>
+            <li class="swiper-slide">
+              <img src="./images/최신뉴스컨텐츠2.png" alt="최신뉴스2" />
             </li>
-            <li>
-              <a href="#"><img src="./images/인스타이미지.png" alt="" /></a>
+            <li class="swiper-slide">
+              <img src="./images/최신뉴스컨텐츠3.png" alt="최신뉴스3" />
+            </li>
+            <li class="swiper-slide">
+              <img src="./images/최신뉴스컨텐츠4.png" alt="최신뉴스4" />
+            </li>
+            <li class="swiper-slide">
+              <img src="./images/최신뉴스컨텐츠5.png" alt="최신뉴스5" />
+            </li>
+            <li class="swiper-slide">
+              <img src="./images/최신뉴스컨텐츠3.png" alt="최신뉴스3" />
+            </li>
+            <li class="swiper-slide">
+              <img src="./images/최신뉴스컨텐츠4.png" alt="최신뉴스4" />
+            </li>
+            <li class="swiper-slide">
+              <img src="./images/최신뉴스컨텐츠5.png" alt="최신뉴스5" />
             </li>
           </ul>
         </div>
-      </div>
-    </section>
-    <section class="premium">
-      <h3>premium contents</h3>
-      <button><img src="./images/더보기버튼.png" alt="" /></button>
-      <hr />
-      <div class="pre_con">
-        <div class="con_1">
-          <h4><a href="#">생활재테크 기본기</a></h4>
-          <span>오늘부터 시작하는 똑똑한 경제 독립 라이프 </span>
-        </div>
-
-        <div class="con_2">
-          <h4><a href="#">주식 기본기</a></h4>
-          <span>그래 이거야, 내가 찾던 주식 왕초보 가이드 </span>
-        </div>
-
-        <div class="con_3">
-          <h4><a href="#">인문학 기본기</a></h4>
+        <div class="swiper-button-next next1"></div>
+        <div class="swiper-button-prev prev1"></div>
+        <!-- <button class="left">
+          <img src="./images/left.png" alt="" />
+        </button>
+        <button class="right">
+          <img src="./images/right.png" alt="" />
+        </button> -->
+      </section>
+      <section class="contents mw">
+        <div class="pizza">
+          <button>more></button>
           <span
-            >10분 만에 내 걸로 만드는 인문학 베스트 &middot; 스테디셀러
+            ><a href="#">
+              따끈따끈한 이슈를 함께 살펴보고, 건강하고 다양한 의견을 나눠봐요 </a
+            >!</span
+          >
+        </div>
+        <div class="quiz">
+          <button>more></button>
+          <span>
+            <a href="#">퀴즈 풀면서 복습하는 이번 주 이슈!</a>
           </span>
         </div>
-      </div>
-    </section>
-    <footer>
-      <div class="foot_1">
-        <span>
-          ㈜뉴닉 / 대표: 김소연 / 사업자등록번호: 632-81-01159 / 대표전화:
-          02-6952-1807 / 통신판매번호: 2020-서울마포-2938 / 개인정보보호책임자:
-          김소연<br />
-          / 담당자메일주소: whatsup@newneek.co서울특별시 마포구 어울마당로 35,
-          5층 (04048) <br />근무시간이 일정하지 않아 전화대신 고객센터를
-          이용해주세요!
-          <br />
-          ⓒ NEWNEEK Co., Ltd. 2018-2020
-        </span>
-      </div>
-      <div class="foot_2">
-        <span>고객센터</span>
-        <span>서비스이용약관</span>
-        <span>제휴문의</span>
-        <span>개인정보처리방침</span>
-        <span>앱오류문의</span>
-      </div>
-      <div class="sns">
-        <span>SNS</span>
-        <div class="icon">
-          <i class="fa-brands fa-square-facebook"></i>
+        <div class="insta">
+          <button><img src="./images/더보기버튼.png" alt="" /></button>
+          <div class="insta_con">
+            <h3>instagram</h3>
+            <hr />
+            <ul>
+              <li>
+                <a href="#"><img src="./images/인스타이미지.png" alt="" /></a>
+              </li>
+              <li>
+                <a href="#"><img src="./images/인스타이미지.png" alt="" /></a>
+              </li>
+              <li>
+                <a href="#"><img src="./images/인스타이미지.png" alt="" /></a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class="icon">
-          <i class="fa-brands fa-square-instagram"></i>
+      </section>
+      <section class="premium mw">
+        <h3>premium contents</h3>
+        <button><img src="./images/더보기버튼.png" alt="" /></button>
+        <hr />
+        <div class="pre_con">
+          <div class="con_1">
+            <h4><a href="#">생활재테크 기본기</a></h4>
+            <span>오늘부터 시작하는 똑똑한 경제 독립 라이프 </span>
+          </div>
+          <div class="con_2">
+            <h4><a href="#">주식 기본기</a></h4>
+            <span>그래 이거야, 내가 찾던 주식 왕초보 가이드 </span>
+          </div>
+          <div class="con_3">
+            <h4><a href="#">인문학 기본기</a></h4>
+            <span
+              >10분 만에 내 걸로 만드는 인문학 베스트 &middot; 스테디셀러
+            </span>
+          </div>
         </div>
-        <div class="icon">
-          <i class="fa-brands fa-square-twitter"></i>
+      </section>
+      <footer class="foot_all mw">
+        <!-- <div class="foot_all"> -->
+          <div class="foot_1">
+            <span>
+              ㈜뉴닉 / 대표: 김소연 / 사업자등록번호: 632-81-01159 / 대표전화:
+              02-6952-1807 / 통신판매번호: 2020-서울마포-2938 /
+              개인정보보호책임자: 김소연<br />
+              / 담당자메일주소: whatsup@newneek.co서울특별시 마포구 어울마당로
+              35, 5층 (04048) <br />근무시간이 일정하지 않아 전화대신 고객센터를
+              이용해주세요!
+              <br />
+              ⓒ NEWNEEK Co., Ltd. 2018-2020
+            </span>
+          </div>
+          <div class="foot_2">
+            <span>고객센터</span>
+            <span>서비스이용약관</span>
+            <span>제휴문의</span>
+            <span>개인정보처리방침</span>
+            <span>앱오류문의</span>
+          </div>
+          <div class="sns">
+            <span>SNS</span>
+            <div class="icon">
+              <i class="fa-brands fa-square-facebook"></i>
+            </div>
+            <div class="icon">
+              <i class="fa-brands fa-square-instagram"></i>
+            </div>
+            <div class="icon">
+              <i class="fa-brands fa-square-twitter"></i>
+            </div>
+          </div>
         </div>
-      </div>
-    </footer>
+      </footer>
+    </div>
   </body>
 </html>
