@@ -8,7 +8,7 @@ let newsRecent = new Swiper(".news_recent", {
   slidesPerView: 1,
   breakpoints: {
     800: {
-      slidesPerView: 3,
+      slidesPerView: 2,
       spaceBetween: 20,
     },
     1100: {
