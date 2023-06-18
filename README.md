@@ -49,7 +49,7 @@
  <div style="display:flex">
   <div> 
 
-  1. main_Index / 반응형
+  1. main_Index / 반응형 </br>
 ![index](https://github.com/kumhyeonjin/Project_NEWNEEK_renewal/assets/122090183/9aa46c8e-78fb-400a-a328-bd15122d2528)
 
 
