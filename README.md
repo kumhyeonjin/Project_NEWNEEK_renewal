@@ -58,7 +58,7 @@
  <hr/>
 
 - ### DEMO
- 1. 퍼블리싱 완료
+ 1. 퍼블리싱 완료 </br>
   ![newneek](https://github.com/kumhyeonjin/Project_NEWNEEK_renewal/assets/122090183/f0b89a75-c0d3-425f-9892-704c8b0eb3a5)
  2. link
   (https://kumhyeonjin.github.io/Project_NEWNEEK_renewal/) 
