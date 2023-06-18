@@ -46,7 +46,7 @@
   <hr/>
 
  - ### 시안 
- 1. main_Index
+ 1. main_Index <br/>
  ![design1](https://github.com/kumhyeonjin/Project_NEWNEEK_renewal/assets/122090183/6b1c44d2-fb91-4f8b-a905-0a23f3db4175)
  2. 반응형 <br/>
   ![design2](https://github.com/kumhyeonjin/Project_NEWNEEK_renewal/assets/122090183/987b53ff-6ba4-4061-9ce5-643d3e3a667d)
