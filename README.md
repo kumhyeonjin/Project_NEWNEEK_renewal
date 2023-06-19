@@ -35,7 +35,7 @@
 
 - ### 와이어프레임
 
-  <img src="https://github.com/kumhyeonjin/Project_NEWNEEK_renewal/assets/122090183/b8381bb5-96b8-417e-88a2-d53651558059" width="60%" height="60%">
+  <img src="https://github.com/kumhyeonjin/Project_NEWNEEK_renewal/assets/122090183/b8381bb5-96b8-417e-88a2-d53651558059" width="70%">
 
   <hr/>
 
