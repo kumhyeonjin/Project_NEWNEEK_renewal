@@ -24,7 +24,7 @@
 
 - ### 문제점
 
-> > <img src="https://github.com/kumhyeonjin/Project_NEWNEEK_renewal/assets/122090183/aa379d01-50a1-4d87-9223-678ac5b56d55">
+ <img src="https://github.com/kumhyeonjin/Project_NEWNEEK_renewal/assets/122090183/aa379d01-50a1-4d87-9223-678ac5b56d55">
 
 - ### 리뉴얼 컨셉
 <br/>
